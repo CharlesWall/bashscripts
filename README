@@ -1,0 +1,13 @@
+TODO
+Shortcuts
+	#add a shortcut for ~/usr/bin; change to it with cs
+	short ~/usr/bin userbin
+	cs userbin
+		
+	#list all shortcuts
+	short -l
+		userbin -> ~/user/bin 
+	
+	#remove a short cut	
+	short -r userbin
+		removed userbin from shortcuts file		 
