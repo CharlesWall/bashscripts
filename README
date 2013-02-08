@@ -1,13 +1,11 @@
-TODO
-Shortcuts
-	#add a shortcut for ~/usr/bin; change to it with cs
-	short ~/usr/bin userbin
-	cs userbin
-		
-	#list all shortcuts
-	short -l
-		userbin -> ~/user/bin 
-	
-	#remove a short cut	
-	short -r userbin
-		removed userbin from shortcuts file		 
+alias pwd2='~/bin/bash/pwd2.sh'
+alias cs='. ~/bin/bash/cs.sh'
+alias l='. ~/bin/bash/ls.sh'
+alias up='. ~/bin/bash/up.sh'
+alias b='. ~/bin/bash/back.sh'
+alias f='. ~/bin/bash/forward.sh'
+alias clip='. ~/bin/bash/clip.sh'
+alias paste='. ~/bin/bash/paste.sh'
+alias e='. ~/bin/bash/enter.sh'
+
+l
