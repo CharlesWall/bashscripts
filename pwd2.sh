@@ -1,6 +1,7 @@
 #!/bin/bash
 clear
-pwd
+. ~/bin/bash/project.sh || pwd 
 echo --------------------------------
 ls -a
 echo --------------------------------
+
