@@ -1,5 +1,6 @@
-run()
-{
+#!/bin/bash
+
+run(){
   git status >/dev/null 2>/dev/null || return
 
   PROJECT=$(git rev-parse --git-dir | tr /  ' ' | awk '{print $(NF-1)}')
